@@ -1,0 +1,22 @@
+# ==============================================================================
+# Enterprise Telemetry Return Prediction API — Backend Requirements
+# ==============================================================================
+
+# Core Web Framework & ASGI Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# Machine Learning Inference Engines & Model Runtimes
+scikit-learn>=1.4.0
+lightgbm>=4.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
+scipy>=1.12.0
+
+# Numerical Processing & Tabular Data Structures
+numpy>=1.26.0
+pandas>=2.1.0
+
+# HTTP Client & Testing (for integration checks)
+httpx>=0.27.0
